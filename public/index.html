@@ -1,0 +1,38 @@
+<?php
+/**
+ * Belousov Sergey, Feb 2020
+ * My Public PetProject
+ *
+ * ** Sudoku - Tetris on VUE
+ *
+ * Develop stages:
+ * [ ] Composer, Templater
+ * [ ] Game play
+ * [ ] Result table save
+ * [ ] Levels, change figures
+ * [ ] 2 Mode, free time and limit time on every move
+ *
+ */
+
+?>
+
+<html lang="en">
+
+	<head>
+		<title>Sudoku - tetris</title>
+
+	</head>
+
+	<body>
+
+		<div id="sudokuTetris">
+			<table>
+				<tr v-for="(gameBoardRow, iY) in gameBoard">
+					<td v-for="(field, iX) in gameBoardRow"> x </td>
+				</tr>
+			</table>
+		</div>
+
+	</body>
+
+</html>
