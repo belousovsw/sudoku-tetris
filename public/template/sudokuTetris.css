@@ -1,0 +1,49 @@
+table {
+    border-spacing: 0;
+    border: 1px solid #CBE1F5;
+}
+
+table .c { color: red }
+.a .c { color: green }
+
+
+.gameField {
+    padding: 0;
+    margin: 0;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #CBE1F5;
+}
+.gameFieldHovered {
+    background-color: #c1d7eb !important;
+}
+
+.second {
+    background-color: #f5f5f5;
+}
+.element {
+    background-color: #c6dcf0;
+}
+
+
+.figureTable {
+    border: none;
+    z-index: 1000000000;
+}
+.figure {
+    padding: 0;
+    margin: 0;
+    width: 2rem;
+    height: 2rem;
+}
+.figureElement {
+    border: 1px solid #CBE1F5;
+    background-color: #c6dcf0;
+    cursor: pointer;
+}
+.figureElementWrong {
+    border: 1px solid #f5d5df;
+    background-color: #f0d0db;
+    cursor: pointer;
+}
+
